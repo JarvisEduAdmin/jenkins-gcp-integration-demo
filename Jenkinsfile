@@ -1,10 +1,10 @@
 pipeline {
     agent any
     environment {
-        PROJECT_ID = 'My First Project'
+        PROJECT_ID = 'rosy-stronghold-406912'
         CLUSTER_NAME = 'jenkinsdev'
         LOCATION = 'asia-southeast1'
-        CREDENTIALS_ID = 'multi-k8s'
+        CREDENTIALS_ID = 'My First Project'
     }
     stages {
         stage("Checkout code") {
